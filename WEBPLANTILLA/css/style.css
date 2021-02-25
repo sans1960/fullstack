@@ -1,0 +1,95 @@
+@font-face{
+    font-family: 'lato' ;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+*{
+    font-family: 'lato';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202428;
+}
+.menu{
+    display: inline-block;
+    padding: 10px;
+}
+.menu a{
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.titol{
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #202428;
+    box-shadow:20px 20px 10px grey; 
+}
+.izq{
+    width: 50%;
+    display: flex;
+    
+    
+    flex-direction: column;
+    padding: 20px;
+}
+.izq h2{
+ 
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+
+}
+.izq p{
+    padding: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 1.5em;
+}
+.boto{
+    padding: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    background: #202428;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
+.dret{
+  
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.dret img{
+    width: 50%;
+    border-radius: 5%;
+    margin-bottom: 15px;
+}
